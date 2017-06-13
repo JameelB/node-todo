@@ -1,5 +1,5 @@
 // public/core.js
-var scotchTodo = angular.module('todo-app', []);
+var todoApp = angular.module('todo-app', []);
 
 function mainController($scope, $http) {
     $scope.formData = {};
